@@ -1,0 +1,62 @@
+add:
+  datas:
+    - - 1
+      - 1
+      - 2
+    - - 100
+      - 100
+      - 200
+    - [0.1, 0.2, 0.3]
+    - [0.1, -0.2, 0.3]
+    - [-1, -1, -2]
+  myid1:
+    - 'int'
+    - 'bigint'
+    - 'float'
+    - 'failed'
+    - 'negative'
+div:
+  divdatas:
+    - [1, 1, 1]
+    - [100, 50, 2]
+    - [50, 0.1, 500]
+    - [0.5, 0.2, 2.5]
+    - [0.6, 0.2, 3]
+    - [-10, -2, 5]
+    - [-6, -3, -2]
+    - [6, -3, -2]
+  myid2:
+    - 'int'
+    - 'bigint'
+    - 'float & int'
+    - 'float0'
+    - 'float1'
+    - 'negative0'
+    - 'failed'
+    - 'negative1'
+sub:
+  subdatas:
+    - [3, 2, 1]
+    - [1010, 450, 560]
+    - [0.25, 0.13, 0.12]
+    - [-5, -6, 1]
+    - [-7, 5, -2]
+  myid3:
+    - 'int'
+    - 'bigint'
+    - 'float'
+    - 'negative'
+    - 'failed'
+mul:
+  muldatas:
+    - [7, 8, 56]
+    - [400, 600, 240000]
+    - [0.5, 0.3, 0.15]
+    - [-15, -20, 300]
+    - [-3, 9, 27]
+  myid4:
+    - 'int'
+    - 'bigint'
+    - 'float'
+    - 'negative'
+    - 'failed'
